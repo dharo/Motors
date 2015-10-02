@@ -8,8 +8,11 @@ To control brushless motors through command line:
   
 Brushless motors are controlled as servos, therefore the pigs command will be used like so:
 (The number 4 is the PIN on the GPIO)
+
   'pigs s 4 1000' <-----This initializes the ESC at its powered down state
+  
   'pigs s 4 1500' <-----This spins up the motor at 1500 PWM.
+  
   'pigs s 4 1000' <-----This is called again to turn the motors off.
   
 To control the brushless motors through a program written in C:
