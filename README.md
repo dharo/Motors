@@ -39,6 +39,7 @@ To control the brushless motors through a program written in C:
    
    To compile(assuming your program is named prog),
    "gcc -o prog prog.c -lpigpio -lpthread -lrt"
+   
    "sudo ./prog"
    
   
